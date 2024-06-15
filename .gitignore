@@ -1,3 +1,6 @@
 #ignore files
 
-linux-commands.xlsx
+linux/linux-commands.xlsx
+ .idea/
+ /.idea*
+ .idea/*
