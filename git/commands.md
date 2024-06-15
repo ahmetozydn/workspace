@@ -11,6 +11,7 @@
 | git push origin —delete feature    | remove remote branch                                                                               |
 | git merge --abort                  | cherry-pick abort                                                                                  |
 | git log --diff-filter=D --summary  | geçmişteki delete olan dosyaları bul                                                               |
+| git reset —hard origin/master      |                                                                                                    |
 
 
 `git log`
