@@ -11,6 +11,9 @@
 | git push origin —delete feature    | remove remote branch                                                                               |
 | git merge --abort                  | cherry-pick abort                                                                                  |
 | git log --diff-filter=D --summary  | geçmişteki delete olan dosyaları bul                                                               |
+| git cherry -v prod qa \| grep '-'  | prod ve qa branclerinde cherry pick ile alınmış commitleri listele                                 |
+| git cherry -v prod qa              | cherry-pick ile alınmış fakat farklı commit SHA-1'e sahip olanlar (-), yeni commitler(+)           |
+| git log prod qa                    | prod'da olmayan commitler(cherry-pick ile alınmış olmasına dikkat etmeli.)                         |
 
 
 `git log`
@@ -19,7 +22,7 @@
 
 - --reverse
 - --author="ahmet”
-- qa..dev
+- qa..dev (qa'de olmayan commitleri listele.)
 - -- <file-name>
 - shortlog -sn (group by commit count and username)
 - —format="%H | %an | %s"
