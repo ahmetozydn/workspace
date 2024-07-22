@@ -9,9 +9,10 @@
 | wc                                                   | statistics                                                            | \-c , -w |
 | cat data.json \| jq '.employees \| length'           | bir arraying uzunluğunu bulmak                                        |          |
 | grep -Hrn "KALov"                                    | search also subdirectories                                            |          |
-| grep -Hrn "REDIS" \| awk -F '/' '{print $2}'|                                                                      |          |
+| grep -Hrn "REDIS" \| awk -F '/' '{print $2}'         |                                                                       |          |
 | echo -n 'find length' \| wc -m                       | find lenth of the string                                              |          |
 | history \| grep -i "Search_pattern"                  | history'de komut arama                                                |          |
 | apropos  <command>,  <command> --help, man <command> |                                                                       |          |
 | printenv                                             |                                                                       |          |
 | printenv \| grep '^UD'                               |                                                                       |          |
+| (?m)^[ \t]*\r?\n                                     | remove empty     lines regex                                          |          |
