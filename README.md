@@ -12,3 +12,4 @@
 | echo -n 'find length' \| wc -m                       | find lenth of the string                                              |          |
 | history \| grep -i "Search_pattern"                  | history'de komut arama                                                |          |
 | apropos  <command>,  <command> --help, man <command> |                                                                       |          |
+| lsof -i tcp:8080                                     |                                                                       |          |
